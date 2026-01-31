@@ -3,18 +3,18 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    SpriteRenderer spriteRenderer;
+    Rigidbody2D rb;
     PlayerInput playerInput;
     Vector2 moveInput;
-    Rigidbody2D rb;
-    [SerializeField] float movementSpeed = 200f;
-    bool isMoving = false;
-    bool isMovingRight = false;
-    [SerializeField] float jumpForce = 5f;
-    bool isGrounded = true;
+    [SerializeField] float movementSpeed = 300f;
+    [SerializeField] float jumpForce = 10f;
+    public bool isGrounded = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         playerInput = GetComponent<PlayerInput>();
 
         playerInput.actions["Move"].performed += ctx => moveInput = ctx.ReadValue<Vector2>();
@@ -24,11 +24,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.AddForce(Vector2.right * moveInput.x * movementSpeed);
+        rb.linearVelocity = new Vector2(moveInput.x * movementSpeed * Time.fixedDeltaTime, rb.linearVelocityY);
+        if (moveInput.x < 0)
+            spriteRenderer.flipX = true;
+        else if (moveInput.x > 0)
+            spriteRenderer.flipX = false;
     }
 
     private void Jump()
     {
+        if (!isGrounded) return;
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        isGrounded = false;
     }
 }
