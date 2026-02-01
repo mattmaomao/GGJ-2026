@@ -21,8 +21,8 @@ public class Timer : MonoBehaviour
         if (isRunning)
         {
             elapsedTime += Time.deltaTime;
-            float minutes = elapsedTime / 60;
-            float seconds = elapsedTime % 60;
+            int minutes = Mathf.FloorToInt(elapsedTime / 60);
+            int seconds = Mathf.FloorToInt(elapsedTime % 60);
             timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         }
 
@@ -47,8 +47,8 @@ public class Timer : MonoBehaviour
     }
     public string getTimeAsString()
     {
-        float minutes = elapsedTime / 60;
-        float seconds = elapsedTime % 60;
+        int minutes = Mathf.FloorToInt(elapsedTime / 60);
+        int seconds = Mathf.FloorToInt(elapsedTime % 60);
         return string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }
