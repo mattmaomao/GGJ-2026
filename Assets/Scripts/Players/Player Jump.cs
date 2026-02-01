@@ -7,7 +7,7 @@ public class PlayerJump : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Floor"))
         {
             playerMovement.isGrounded = true;
             AudioManager.Instance.PlaySE(AudioManager.SE_LANDING);
@@ -17,7 +17,7 @@ public class PlayerJump : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Player") && collision == currentCollider)
+        if (collision.gameObject.CompareTag("Floor") && collision == currentCollider)
         {
             playerMovement.isGrounded = false;
         }
