@@ -38,7 +38,7 @@ public class CameraDetach : MonoBehaviour
         }
 
         // Death when player falls below minPlayerY
-        if (player.position.y < minPlayerY)
+        if (!GameManager.Instance.IsDead && player.position.y < minPlayerY)
         {
             OnPlayerDeath();
         }
@@ -62,7 +62,12 @@ public class CameraDetach : MonoBehaviour
         Debug.Log("Player fell off screen!");
         AudioManager.Instance.PlaySE(AudioManager.SE_FAIL);
 
-        GameManager.Instance.ResetToInitialState();
+        GameManager.Instance.OnPlayerDeath();
+        // Camera will be reattached by GameManager after player resets
+    }
+
+    public void AttachCameraToPlayer()
+    {
         AttachCamera();
     }
 }

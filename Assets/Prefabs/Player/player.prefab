@@ -345,6 +345,7 @@ GameObject:
   - component: {fileID: 3917306863688504277}
   - component: {fileID: 2224725632708535305}
   - component: {fileID: 6539533388303377025}
+  - component: {fileID: 4411782586873948519}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -470,3 +471,19 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &4411782586873948519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8931144163556936539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5970535771170473583f2d490354fcfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraDetach
+  minCameraPositionY: -2
+  minPlayerY: -9
+  isDetached: 0
+  player: {fileID: 4022429343690176843}
