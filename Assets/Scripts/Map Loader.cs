@@ -130,7 +130,7 @@ public class MapLoader : MonoBehaviour
     // todo find flag code
     bool isFlag(int[] code)
     {
-        return code[0] == 51 && code[1] == 51;
+        return code[0] == 41 && code[1] == 41;
     }
 
     bool isPlatform(int[] code)
@@ -141,14 +141,16 @@ public class MapLoader : MonoBehaviour
         if (code[1] == 21)
             if (code[0] == 21 || code[0] == 31 || code[0] == 41 || code[0] == 51)
                 return true;
+        if (code[1] == 31)
+            return true;
         return false;
     }
 
     bool isButton(int[] code)
     {
-        if (code[1] == 1 || code[1] == 31)
-            return true;
         if (code[1] == 1)
+            return true;
+        if (code[1] == 11)
             if (code[0] == 1 || code[0] == 11)
                 return true;
         return false;
@@ -191,6 +193,19 @@ public class MapLoader : MonoBehaviour
     // hard code color code ***might need to be changed
     int GetBtnColorIndexWithCode(int[] code)
     {
+        // cycle button
+        if (code[1] == 11)
+        {
+            switch (code[0])
+            {
+                case 1:
+                    return -1;
+                case 11:
+                    return -1;
+            }
+        }
+
+        // color button
         switch (code[0])
         {
             case 1:
@@ -212,18 +227,11 @@ public class MapLoader : MonoBehaviour
     // hard code color code ***might need to be changed
     bool GetBtnDestroyAfterCollectionWithCode(int[] code)
     {
-        // switch (code[0])
-        // {
-        //     case 21:
-        //         return code[1] == 11 ? true : false;
-        //     case 31:
-        //         return code[1] == 11 ? true : false;
-        //     case 41:
-        //         return code[1] == 11 ? true : false;
-        //     case 51:
-        //         return code[1] == 21 ? true : false;
-        // }
-        return true;
+        if (code[0] == 1 && code[1] == 11)
+        {
+            return true;
+        }
+        return false;
     }
 
     public Vector2 CalPlayerOnStartPt(int lvl)

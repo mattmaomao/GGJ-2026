@@ -44,7 +44,12 @@ public class ColorSwapItem : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         this.colorIndex = colorIndex;
-        spriteRenderer.color = BackgroundSprite.Instance.colors[colorIndex >= 0 && colorIndex < BackgroundSprite.Instance.colors.Length ? colorIndex : 0];
+        if (colorIndex == -1)
+        {
+            spriteRenderer.color = Color.white;
+        }
+        else
+            spriteRenderer.color = BackgroundSprite.Instance.colors[colorIndex >= 0 && colorIndex < BackgroundSprite.Instance.colors.Length ? colorIndex : 0];
         this.destroyAfterCollection = destroyAfterCollection;
         spriteRenderer.sprite = destroyAfterCollection ? readySprite_Single : readySprite_Cycle;
     }
