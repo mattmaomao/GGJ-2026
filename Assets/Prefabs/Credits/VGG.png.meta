@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 02c6bed83e1f6e5409fca7d7d63c0706
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1523347418461542394
+    second: VGG_0
+  - first:
+      213: 7627363810470211981
+    second: VGG_1
+  - first:
+      213: -7213732950260270120
+    second: VGG_2
+  - first:
+      213: 2458789062643783911
+    second: VGG_3
+  - first:
+      213: 345004936699205297
+    second: VGG_4
+  - first:
+      213: -3361408050334167634
+    second: VGG_5
+  - first:
+      213: 6307276188287180188
+    second: VGG_6
+  - first:
+      213: -6024792362687343426
+    second: VGG_7
+  - first:
+      213: -820588270463876907
+    second: VGG_8
+  - first:
+      213: -3181006519846608460
+    second: VGG_9
+  - first:
+      213: -5572229608805448545
+    second: VGG_10
+  - first:
+      213: -814463775071770246
+    second: VGG_11
+  - first:
+      213: 1959983963904401894
+    second: VGG_12
+  - first:
+      213: 6642560148685957694
+    second: VGG_13
+  - first:
+      213: 7523889524105864955
+    second: VGG_14
+  - first:
+      213: -6396768552642226991
+    second: VGG_15
+  - first:
+      213: -4787174029422203589
+    second: VGG_16
+  - first:
+      213: 7231163374983387750
+    second: VGG_17
+  - first:
+      213: 5844095850250365861
+    second: VGG_18
+  - first:
+      213: -3680362067654468179
+    second: VGG_19
+  - first:
+      213: 1853457176034939909
+    second: VGG_20
+  - first:
+      213: 3901308234664024555
+    second: VGG_21
+  - first:
+      213: 7113560751745583385
+    second: VGG_22
+  - first:
+      213: 7348978094474507939
+    second: VGG_23
+  - first:
+      213: -8198633321807795102
+    second: VGG_24
+  - first:
+      213: 819698661899387005
+    second: VGG_25
+  - first:
+      213: 3208492091686042174
+    second: VGG_26
+  - first:
+      213: 7932517393889982633
+    second: VGG_27
+  - first:
+      213: 3726544045447717531
+    second: VGG_28
+  - first:
+      213: -6447775672592571054
+    second: VGG_29
+  - first:
+      213: 6478663516286218996
+    second: VGG_30
+  - first:
+      213: 4265041889937837207
+    second: VGG_31
+  - first:
+      213: 5539232294833928149
+    second: VGG_32
+  - first:
+      213: -3575020785455247836
+    second: VGG_33
+  - first:
+      213: -7370331398912366251
+    second: VGG_34
+  - first:
+      213: -5135086158206332786
+    second: VGG_35
+  - first:
+      213: -7055859501582511377
+    second: VGG_36
+  - first:
+      213: 4830998981674502681
+    second: VGG_37
+  - first:
+      213: 3815873263310732036
+    second: VGG_38
+  - first:
+      213: 2344920545313568685
+    second: VGG_39
+  - first:
+      213: -4990549707131726492
+    second: VGG_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VGG_0
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 487
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608671d089bfbdae0800000000000000
+      internalID: -1523347418461542394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 486
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d813fbf59f6d9d960800000000000000
+      internalID: 7627363810470211981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 486
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbb43b0a1ca3eb90800000000000000
+      internalID: -7213732950260270120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 487
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e89f7010af5f1220800000000000000
+      internalID: 2458789062643783911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 488
+        width: 13
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b656b97924b9c400800000000000000
+      internalID: 345004936699205297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 485
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead81be0031e951d0800000000000000
+      internalID: -3361408050334167634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 488
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d132f9642f78750800000000000000
+      internalID: 6307276188287180188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 487
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4d8805443a36ca0800000000000000
+      internalID: -6024792362687343426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_8
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 486
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d00620d05fac94f0800000000000000
+      internalID: -820588270463876907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_9
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 485
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b167548c6bcad3d0800000000000000
+      internalID: -3181006519846608460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 485
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94cc3891b67ba2b0800000000000000
+      internalID: -5572229608805448545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_11
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 488
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a796c64038172b4f0800000000000000
+      internalID: -814463775071770246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_12
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 487
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1ebfdd703433b10800000000000000
+      internalID: 1959983963904401894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_13
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 487
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aa79de24d1f2c50800000000000000
+      internalID: 6642560148685957694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_14
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 486
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6ec9da8a93a6860800000000000000
+      internalID: 7523889524105864955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 406
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4de5594ec1a37a0800000000000000
+      internalID: -6396768552642226991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 404
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d6052759a809db0800000000000000
+      internalID: -4787174029422203589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_17
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 404
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a13b6f6c04a5460800000000000000
+      internalID: 7231163374983387750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_18
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 406
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abe18366366a1150800000000000000
+      internalID: 5844095850250365861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_19
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 405
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad12a8e23abcecc0800000000000000
+      internalID: -3680362067654468179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_20
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 407
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50416f74b7dc8b910800000000000000
+      internalID: 1853457176034939909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 406
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9947e5b2b342630800000000000000
+      internalID: 3901308234664024555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_22
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 405
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919c4ff70d178b260800000000000000
+      internalID: 7113560751745583385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_23
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 405
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6b74fe3a0dcf560800000000000000
+      internalID: 7348978094474507939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_24
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 324
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c27f99e6a983e80800000000000000
+      internalID: -8198633321807795102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 325
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70406d0797206b00800000000000000
+      internalID: 819698661899387005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 323
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ab89dde8ad68c20800000000000000
+      internalID: 3208492091686042174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_27
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 324
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a87b6d9a86f51e60800000000000000
+      internalID: 7932517393889982633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_28
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 323
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9222c4b01857b330800000000000000
+      internalID: 3726544045447717531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_29
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 325
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255e6b30036e486a0800000000000000
+      internalID: -6447775672592571054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 324
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f5838426d8e950800000000000000
+      internalID: 6478663516286218996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_31
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 323
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cc7e17009703b30800000000000000
+      internalID: 4265041889937837207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_32
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 323
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7b2fd8c6e4fdc40800000000000000
+      internalID: 5539232294833928149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_33
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 323
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e4d427989f26ec0800000000000000
+      internalID: -3575020785455247836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_34
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 325
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559abe274a257b990800000000000000
+      internalID: -7370331398912366251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_35
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 323
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80161198528cb8b0800000000000000
+      internalID: -5135086158206332786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_36
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 323
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe21c17ba2d841e90800000000000000
+      internalID: -7055859501582511377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_37
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 240
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a8bf46af72b0340800000000000000
+      internalID: 4830998981674502681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_38
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 242
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bfb8ff384b4f430800000000000000
+      internalID: 3815873263310732036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_39
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 240
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da73ee1efc4da8020800000000000000
+      internalID: 2344920545313568685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VGG_40
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 243
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465db708b710ebab0800000000000000
+      internalID: -4990549707131726492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VGG_0: -1523347418461542394
+      VGG_1: 7627363810470211981
+      VGG_10: -5572229608805448545
+      VGG_11: -814463775071770246
+      VGG_12: 1959983963904401894
+      VGG_13: 6642560148685957694
+      VGG_14: 7523889524105864955
+      VGG_15: -6396768552642226991
+      VGG_16: -4787174029422203589
+      VGG_17: 7231163374983387750
+      VGG_18: 5844095850250365861
+      VGG_19: -3680362067654468179
+      VGG_2: -7213732950260270120
+      VGG_20: 1853457176034939909
+      VGG_21: 3901308234664024555
+      VGG_22: 7113560751745583385
+      VGG_23: 7348978094474507939
+      VGG_24: -8198633321807795102
+      VGG_25: 819698661899387005
+      VGG_26: 3208492091686042174
+      VGG_27: 7932517393889982633
+      VGG_28: 3726544045447717531
+      VGG_29: -6447775672592571054
+      VGG_3: 2458789062643783911
+      VGG_30: 6478663516286218996
+      VGG_31: 4265041889937837207
+      VGG_32: 5539232294833928149
+      VGG_33: -3575020785455247836
+      VGG_34: -7370331398912366251
+      VGG_35: -5135086158206332786
+      VGG_36: -7055859501582511377
+      VGG_37: 4830998981674502681
+      VGG_38: 3815873263310732036
+      VGG_39: 2344920545313568685
+      VGG_4: 345004936699205297
+      VGG_40: -4990549707131726492
+      VGG_5: -3361408050334167634
+      VGG_6: 6307276188287180188
+      VGG_7: -6024792362687343426
+      VGG_8: -820588270463876907
+      VGG_9: -3181006519846608460
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

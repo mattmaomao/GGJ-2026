@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 5587b528991c8c340aa46d803cbae7d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2301050616596329736
+    second: LEVELDESIGN_0
+  - first:
+      213: -5936571299979567072
+    second: LEVELDESIGN_1
+  - first:
+      213: 3938043673924985461
+    second: LEVELDESIGN_2
+  - first:
+      213: -7318240674470101095
+    second: LEVELDESIGN_3
+  - first:
+      213: 5171438647889185178
+    second: LEVELDESIGN_4
+  - first:
+      213: 1334631869699821093
+    second: LEVELDESIGN_5
+  - first:
+      213: -7554808725684332660
+    second: LEVELDESIGN_6
+  - first:
+      213: 1297191388871853583
+    second: LEVELDESIGN_7
+  - first:
+      213: 757304647107165254
+    second: LEVELDESIGN_8
+  - first:
+      213: 2367364366996038362
+    second: LEVELDESIGN_9
+  - first:
+      213: -6981228080464372921
+    second: LEVELDESIGN_10
+  - first:
+      213: -5549659653191841751
+    second: LEVELDESIGN_11
+  - first:
+      213: 7288937977681116355
+    second: LEVELDESIGN_12
+  - first:
+      213: 8837667964218976961
+    second: LEVELDESIGN_13
+  - first:
+      213: 5196529075764881262
+    second: LEVELDESIGN_14
+  - first:
+      213: 6089991141442891506
+    second: LEVELDESIGN_15
+  - first:
+      213: -4922518018708035653
+    second: LEVELDESIGN_16
+  - first:
+      213: -4382946330069906740
+    second: LEVELDESIGN_17
+  - first:
+      213: 710696800769396016
+    second: LEVELDESIGN_18
+  - first:
+      213: -4202401639057962677
+    second: LEVELDESIGN_19
+  - first:
+      213: 5980584451657569572
+    second: LEVELDESIGN_20
+  - first:
+      213: -1466198843672011440
+    second: LEVELDESIGN_21
+  - first:
+      213: 5014116064918861440
+    second: LEVELDESIGN_22
+  - first:
+      213: 8776006804353202087
+    second: LEVELDESIGN_23
+  - first:
+      213: 6545115078695764934
+    second: LEVELDESIGN_24
+  - first:
+      213: -3834657971303661951
+    second: LEVELDESIGN_25
+  - first:
+      213: 2767740340221451815
+    second: LEVELDESIGN_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LEVELDESIGN_0
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 526
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa059bd7a60110e0800000000000000
+      internalID: -2301050616596329736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 524
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02060f02bdf0d9da0800000000000000
+      internalID: -5936571299979567072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 526
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572e5465bddb6a630800000000000000
+      internalID: 3938043673924985461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_3
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 524
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ff46951e2607a90800000000000000
+      internalID: -7318240674470101095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_4
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 526
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9949210d04a4c740800000000000000
+      internalID: 5171438647889185178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 525
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e8f534d90958210800000000000000
+      internalID: 1334631869699821093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_6
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 524
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c875097bd7de72790800000000000000
+      internalID: -7554808725684332660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_7
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 525
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06076302bc800210800000000000000
+      internalID: 1297191388871853583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_8
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 526
+        width: 13
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c339d609c728a00800000000000000
+      internalID: 757304647107165254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_9
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 525
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad267b459519ad020800000000000000
+      internalID: 2367364366996038362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_10
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 523
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b50f78c02bd1f90800000000000000
+      internalID: -6981228080464372921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_11
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 549
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928ce23e2f5abf2b0800000000000000
+      internalID: -5549659653191841751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_12
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 525
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc7985e872872560800000000000000
+      internalID: 7288937977681116355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 362
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca2f128034b5aa70800000000000000
+      internalID: 8837667964218976961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_14
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 362
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6764f979a7cd1840800000000000000
+      internalID: 5196529075764881262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 361
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2feaafe4daef38450800000000000000
+      internalID: 6089991141442891506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_16
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 361
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7a27e41f3bfabb0800000000000000
+      internalID: -4922518018708035653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 362
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccac49ed885ac23c0800000000000000
+      internalID: -4382946330069906740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 361
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dcdd099f6ecd900800000000000000
+      internalID: 710696800769396016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_19
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 360
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b494e6c79f11ea5c0800000000000000
+      internalID: -4202401639057962677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_20
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 362
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425164e4fdd4ff250800000000000000
+      internalID: 5980584451657569572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_21
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 361
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d57d08be307abe0800000000000000
+      internalID: -1466198843672011440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_22
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 362
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0867110cef7b59540800000000000000
+      internalID: 5014116064918861440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_23
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 364
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a732e7f0b3aac970800000000000000
+      internalID: 8776006804353202087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_24
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 361
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3c6bf8c7be4da50800000000000000
+      internalID: 6545115078695764934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_25
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 361
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e335954ee88cac0800000000000000
+      internalID: -3834657971303661951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEVELDESIGN_26
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 360
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e1b61ec2df86620800000000000000
+      internalID: 2767740340221451815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LEVELDESIGN_0: -2301050616596329736
+      LEVELDESIGN_1: -5936571299979567072
+      LEVELDESIGN_10: -6981228080464372921
+      LEVELDESIGN_11: -5549659653191841751
+      LEVELDESIGN_12: 7288937977681116355
+      LEVELDESIGN_13: 8837667964218976961
+      LEVELDESIGN_14: 5196529075764881262
+      LEVELDESIGN_15: 6089991141442891506
+      LEVELDESIGN_16: -4922518018708035653
+      LEVELDESIGN_17: -4382946330069906740
+      LEVELDESIGN_18: 710696800769396016
+      LEVELDESIGN_19: -4202401639057962677
+      LEVELDESIGN_2: 3938043673924985461
+      LEVELDESIGN_20: 5980584451657569572
+      LEVELDESIGN_21: -1466198843672011440
+      LEVELDESIGN_22: 5014116064918861440
+      LEVELDESIGN_23: 8776006804353202087
+      LEVELDESIGN_24: 6545115078695764934
+      LEVELDESIGN_25: -3834657971303661951
+      LEVELDESIGN_26: 2767740340221451815
+      LEVELDESIGN_3: -7318240674470101095
+      LEVELDESIGN_4: 5171438647889185178
+      LEVELDESIGN_5: 1334631869699821093
+      LEVELDESIGN_6: -7554808725684332660
+      LEVELDESIGN_7: 1297191388871853583
+      LEVELDESIGN_8: 757304647107165254
+      LEVELDESIGN_9: 2367364366996038362
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

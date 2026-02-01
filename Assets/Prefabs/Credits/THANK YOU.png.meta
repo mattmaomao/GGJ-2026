@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 187ba814cb972644b85a57c4183de644
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 145641533866667744
+    second: THANK YOU_0
+  - first:
+      213: -3214321560354130444
+    second: THANK YOU_1
+  - first:
+      213: 1448135236955251132
+    second: THANK YOU_2
+  - first:
+      213: -1963622946546946624
+    second: THANK YOU_3
+  - first:
+      213: 7906880475916572358
+    second: THANK YOU_4
+  - first:
+      213: 4889964101954319636
+    second: THANK YOU_5
+  - first:
+      213: -1932061728356882711
+    second: THANK YOU_6
+  - first:
+      213: 3389994605711293564
+    second: THANK YOU_7
+  - first:
+      213: 6229952687316210061
+    second: THANK YOU_8
+  - first:
+      213: -5470514835882800659
+    second: THANK YOU_9
+  - first:
+      213: 1675395089580594597
+    second: THANK YOU_10
+  - first:
+      213: -3781864664516347787
+    second: THANK YOU_11
+  - first:
+      213: 179967158897826656
+    second: THANK YOU_12
+  - first:
+      213: -3228411939975422392
+    second: THANK YOU_13
+  - first:
+      213: 8600245732944277011
+    second: THANK YOU_14
+  - first:
+      213: 1813033337134361482
+    second: THANK YOU_15
+  - first:
+      213: -4145622568355332744
+    second: THANK YOU_16
+  - first:
+      213: -6867178933421735960
+    second: THANK YOU_17
+  - first:
+      213: -4805922860947240374
+    second: THANK YOU_18
+  - first:
+      213: 1599658581235149057
+    second: THANK YOU_19
+  - first:
+      213: -3041807010232176429
+    second: THANK YOU_20
+  - first:
+      213: -573230707270469395
+    second: THANK YOU_21
+  - first:
+      213: -2591096651861193924
+    second: THANK YOU_22
+  - first:
+      213: -1884120637141675697
+    second: THANK YOU_23
+  - first:
+      213: -4995378540489868578
+    second: THANK YOU_24
+  - first:
+      213: 5224160757564447357
+    second: THANK YOU_25
+  - first:
+      213: 5319831938948641415
+    second: THANK YOU_26
+  - first:
+      213: 3953712140991474135
+    second: THANK YOU_27
+  - first:
+      213: -2700875517075539588
+    second: THANK YOU_28
+  - first:
+      213: 7309867072382475282
+    second: THANK YOU_29
+  - first:
+      213: 7280311835462683735
+    second: THANK YOU_30
+  - first:
+      213: 3583684341478559709
+    second: THANK YOU_31
+  - first:
+      213: 5522764326692460454
+    second: THANK YOU_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: THANK YOU_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 507
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee6aa2143c650200800000000000000
+      internalID: 145641533866667744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 506
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f57631329f6463d0800000000000000
+      internalID: -3214321560354130444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 505
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1a171535fc81410800000000000000
+      internalID: 1448135236955251132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 505
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd6346755fcfb4e0800000000000000
+      internalID: -1963622946546946624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 508
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c69a7086e1eabd60800000000000000
+      internalID: 7906880475916572358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_5
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 507
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415366d4174acd340800000000000000
+      internalID: 4889964101954319636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 506
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e629253810ff25e0800000000000000
+      internalID: -1932061728356882711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 508
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c79e7022eab0f20800000000000000
+      internalID: 3389994605711293564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_8
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 507
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8119fe16fc357650800000000000000
+      internalID: 6229952687316210061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 506
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de983b4adb3d414b0800000000000000
+      internalID: -5470514835882800659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_10
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 507
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a592e415f2304710800000000000000
+      internalID: 1675395089580594597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 506
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578b6e2ff1e148bc0800000000000000
+      internalID: -3781864664516347787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 508
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b57517d2f5f7200800000000000000
+      internalID: 179967158897826656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_13
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 505
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e922902706233d0800000000000000
+      internalID: -3228411939975422392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_14
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 507
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e66359de53a5770800000000000000
+      internalID: 8600245732944277011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_15
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 506
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ba5d9d630392910800000000000000
+      internalID: 1813033337134361482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_16
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 505
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d76501d3ac776c0800000000000000
+      internalID: -4145622568355332744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_17
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 507
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eff958d421e2b0a0800000000000000
+      internalID: -6867178933421735960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 426
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a8f4fee9eed4db0800000000000000
+      internalID: -4805922860947240374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 425
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1092d681101233610800000000000000
+      internalID: 1599658581235149057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_20
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 426
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d071dfe3a459c5d0800000000000000
+      internalID: -3041807010232176429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_21
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 426
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de83cc675b97b08f0800000000000000
+      internalID: -573230707270469395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 426
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b0c17c2539a0cd0800000000000000
+      internalID: -2591096651861193924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_23
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 425
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41103553424ad5e0800000000000000
+      internalID: -1884120637141675697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_24
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 423
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edafd7f1fa9dcaab0800000000000000
+      internalID: -4995378540489868578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 425
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a1a2cb782ff7840800000000000000
+      internalID: 5224160757564447357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_26
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 426
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782bfc976f6d3d940800000000000000
+      internalID: 5319831938948641415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_27
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 426
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d922fb9e386ed630800000000000000
+      internalID: 3953712140991474135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_28
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 425
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79b92ee600948ad0800000000000000
+      internalID: -2700875517075539588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_29
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 425
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c9eac7f5dd17560800000000000000
+      internalID: 7309867072382475282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_30
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 424
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c43d6aa0dd80560800000000000000
+      internalID: 7280311835462683735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_31
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 425
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf85f0ebedcbb130800000000000000
+      internalID: 3583684341478559709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THANK YOU_32
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 425
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a714bee4ecc4ac40800000000000000
+      internalID: 5522764326692460454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      THANK YOU_0: 145641533866667744
+      THANK YOU_1: -3214321560354130444
+      THANK YOU_10: 1675395089580594597
+      THANK YOU_11: -3781864664516347787
+      THANK YOU_12: 179967158897826656
+      THANK YOU_13: -3228411939975422392
+      THANK YOU_14: 8600245732944277011
+      THANK YOU_15: 1813033337134361482
+      THANK YOU_16: -4145622568355332744
+      THANK YOU_17: -6867178933421735960
+      THANK YOU_18: -4805922860947240374
+      THANK YOU_19: 1599658581235149057
+      THANK YOU_2: 1448135236955251132
+      THANK YOU_20: -3041807010232176429
+      THANK YOU_21: -573230707270469395
+      THANK YOU_22: -2591096651861193924
+      THANK YOU_23: -1884120637141675697
+      THANK YOU_24: -4995378540489868578
+      THANK YOU_25: 5224160757564447357
+      THANK YOU_26: 5319831938948641415
+      THANK YOU_27: 3953712140991474135
+      THANK YOU_28: -2700875517075539588
+      THANK YOU_29: 7309867072382475282
+      THANK YOU_3: -1963622946546946624
+      THANK YOU_30: 7280311835462683735
+      THANK YOU_31: 3583684341478559709
+      THANK YOU_32: 5522764326692460454
+      THANK YOU_4: 7906880475916572358
+      THANK YOU_5: 4889964101954319636
+      THANK YOU_6: -1932061728356882711
+      THANK YOU_7: 3389994605711293564
+      THANK YOU_8: 6229952687316210061
+      THANK YOU_9: -5470514835882800659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
