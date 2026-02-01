@@ -33,9 +33,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if (!isGrounded) return;
+        if (!isGrounded || rb.linearVelocity.y > 0) return;
+        AudioManager.Instance.PlaySE(AudioManager.SE_JUMP);
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        isGrounded = false;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
