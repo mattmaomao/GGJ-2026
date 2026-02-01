@@ -4,10 +4,10 @@ public enum PlatformColorType
 {
     Black,
     Red,
-    Blue,
-    Green,
+    Orange,
     Yellow,
-    Cyan,
+    Green,
+    Blue,
     Magenta,
     Null
 }

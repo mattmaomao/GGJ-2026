@@ -12,10 +12,10 @@ public class MapLoader : MonoBehaviour
     [Header("Colors")]
     [SerializeField] Color COLOR_BLACK = Color.black;
     [SerializeField] Color COLOR_RED = Color.red;
-    [SerializeField] Color COLOR_BLUE = Color.blue;
-    [SerializeField] Color COLOR_GREEN = Color.green;
+    [SerializeField] Color COLOR_ORANGE = Color.orange;
     [SerializeField] Color COLOR_YELLOW = Color.yellow;
-    [SerializeField] Color COLOR_CYAN = Color.cyan;
+    [SerializeField] Color COLOR_GREEN = Color.green;
+    [SerializeField] Color COLOR_BLUE = Color.blue;
     [SerializeField] Color COLOR_MAGENTA = Color.magenta;
     // for empty space place holder
     [SerializeField] Color COLOR_NULL = Color.white;
@@ -168,11 +168,11 @@ public class MapLoader : MonoBehaviour
             case 21:
                 return code[1] == 11 ? COLOR_BLACK : COLOR_NULL;
             case 31:
-                return code[1] == 11 ? COLOR_RED : COLOR_YELLOW;
+                return code[1] == 11 ? COLOR_RED : COLOR_GREEN;
             case 41:
-                return code[1] == 11 ? COLOR_BLUE : COLOR_CYAN;
+                return code[1] == 11 ? COLOR_ORANGE : COLOR_BLUE;
             case 51:
-                return code[1] == 11 ? COLOR_GREEN : COLOR_MAGENTA;
+                return code[1] == 11 ? COLOR_YELLOW : COLOR_MAGENTA;
         }
         return COLOR_NULL;
     }
@@ -185,11 +185,11 @@ public class MapLoader : MonoBehaviour
             case 21:
                 return code[1] == 11 ? PlatformColorType.Black : PlatformColorType.Null;
             case 31:
-                return code[1] == 11 ? PlatformColorType.Red : PlatformColorType.Yellow;
+                return code[1] == 11 ? PlatformColorType.Red : PlatformColorType.Green;
             case 41:
-                return code[1] == 11 ? PlatformColorType.Blue : PlatformColorType.Cyan;
+                return code[1] == 11 ? PlatformColorType.Orange : PlatformColorType.Blue;
             case 51:
-                return code[1] == 21 ? PlatformColorType.Green : PlatformColorType.Magenta;
+                return code[1] == 21 ? PlatformColorType.Yellow : PlatformColorType.Magenta;
         }
         return PlatformColorType.Null;
     }

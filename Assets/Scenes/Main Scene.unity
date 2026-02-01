@@ -274,7 +274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1512013283819391415, guid: 6ba22d63da0494f49a63b2b36056f17f, type: 3}
       propertyPath: lvl1BGScale.x
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 1512013283819391415, guid: 6ba22d63da0494f49a63b2b36056f17f, type: 3}
       propertyPath: lvl1BGScale.y
@@ -286,11 +286,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1512013283819391415, guid: 6ba22d63da0494f49a63b2b36056f17f, type: 3}
       propertyPath: lvl2BGScale.y
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 1512013283819391415, guid: 6ba22d63da0494f49a63b2b36056f17f, type: 3}
       propertyPath: lvl3BGScale.x
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 1512013283819391415, guid: 6ba22d63da0494f49a63b2b36056f17f, type: 3}
       propertyPath: lvl3BGScale.y
