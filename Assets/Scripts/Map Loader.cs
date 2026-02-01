@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class MapLoader : MonoBehaviour
 {
+    public static MapLoader Instance { get; private set; }
+
     [SerializeField] GameObject playerObj;
 
     [Header("Colors")]
@@ -26,8 +28,17 @@ public class MapLoader : MonoBehaviour
     const int BLOCK_SIZE = 8;
     List<LdtkLevel> gridTilesByLevel = new();
 
+    void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
+
     void Start()
     {
+        playerObj = GameManager.Instance.player.gameObject;
         gridTilesByLevel.Clear();
         gridTilesByLevel = ExtractGridTiles(FILEPATH);
 
@@ -134,9 +145,9 @@ public class MapLoader : MonoBehaviour
                 {
                     var entity = layer.entityInstances[0];
                     Vector2 playerPos = new Vector2(entity.px[0] / BLOCK_SIZE, -entity.px[1] / BLOCK_SIZE);
-                    // todo access player object and set position
                     if (playerObj != null)
                     {
+                        GameManager.Instance.StoreInitialState(playerPos);
                         playerObj.transform.position = playerPos;
                         return;
                     }

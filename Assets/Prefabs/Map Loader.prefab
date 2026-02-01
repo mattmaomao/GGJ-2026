@@ -44,5 +44,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d878ea9bcfd0746931ccf1ca3994cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapLoader
-  tilePrefab: {fileID: 0}
+  playerObj: {fileID: 0}
+  COLOR_BLACK: {r: 0, g: 0, b: 0, a: 1}
+  COLOR_RED: {r: 1, g: 0, b: 0, a: 1}
+  COLOR_BLUE: {r: 0, g: 0, b: 1, a: 1}
+  COLOR_GREEN: {r: 0, g: 1, b: 0, a: 1}
+  COLOR_YELLOW: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  COLOR_CYAN: {r: 0, g: 1, b: 1, a: 1}
+  COLOR_MAGENTA: {r: 1, g: 0, b: 1, a: 1}
+  COLOR_NULL: {r: 1, g: 1, b: 1, a: 1}
+  backgroundSprite: {fileID: 0}
+  tilePrefab: {fileID: 3733611690736368904, guid: 3b87d4b50c3f3470e85e29499e90bfc5, type: 3}
   tileContainer: {fileID: 0}

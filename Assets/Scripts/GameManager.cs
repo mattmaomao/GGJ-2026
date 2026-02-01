@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [SerializeField] Transform player;
+    public Transform player;
     [SerializeField] Transform cameraTransform;
     [SerializeField] Sprite smokePuffSprite;
     [SerializeField] float respawnDelay = 0.5f;
@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     Rigidbody2D playerRb;
 
     public bool IsDead { get; private set; } = false;
+
+    public int currentLevel = 1;
 
     void Awake()
     {
@@ -38,13 +40,13 @@ public class GameManager : MonoBehaviour
         playerSprite = player.GetComponent<SpriteRenderer>();
         playerRb = player.GetComponent<Rigidbody2D>();
 
-        StoreInitialState();
+        MapLoader.Instance.InitLevel(currentLevel);
     }
 
-    void StoreInitialState()
+    public void StoreInitialState(Vector2 pos)
     {
-        playerStartPos = player.position;
-        cameraStartPos = cameraTransform.localPosition;
+        playerStartPos = pos;
+        // cameraStartPos = cameraTransform.localPosition;
     }
 
     public void OnPlayerDeath()
