@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public Transform player;
     [SerializeField] Transform cameraTransform;
     [SerializeField] Sprite smokePuffSprite;
-    [SerializeField] float respawnDelay = 0.5f;
+    [SerializeField] float respawnDelay = 1f;
 
     Vector3 playerStartPos;
     Vector3 cameraStartPos;

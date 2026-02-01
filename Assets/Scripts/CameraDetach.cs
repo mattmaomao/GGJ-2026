@@ -26,22 +26,23 @@ public class CameraDetach : MonoBehaviour
     {
         if (player == null) return;
 
-        // Detach when camera Y goes below minimum
-        if (!isDetached && transform.position.y < minCameraPositionY)
-        {
-            DetachCamera();
-        }
-        // Re-attach when camera would be above minimum
-        else if (isDetached && player.position.y + localPosWhenAttached.y >= minCameraPositionY)
+        // // Detach when camera Y goes below minimum
+        // if (!isDetached && transform.position.y < minCameraPositionY)
+        // {
+        //     DetachCamera();
+        // }
+        // // Re-attach when camera would be above minimum
+        // else if (isDetached && player.position.y + localPosWhenAttached.y >= minCameraPositionY)
+        if (isDetached && player.position.y + localPosWhenAttached.y >= minCameraPositionY)
         {
             AttachCamera();
         }
 
-        // Death when player falls below minPlayerY
-        if (!GameManager.Instance.IsDead && player.position.y < minPlayerY)
-        {
-            OnPlayerDeath();
-        }
+        // // Death when player falls below minPlayerY
+        // if (!GameManager.Instance.IsDead && player.position.y < minPlayerY)
+        // {
+        //     OnPlayerDeath();
+        // }
     }
 
     void AttachCamera()
@@ -57,12 +58,9 @@ public class CameraDetach : MonoBehaviour
         isDetached = true;
     }
 
-    void OnPlayerDeath()
+    public void OnPlayerDeath()
     {
-        Debug.Log("Player fell off screen!");
-        AudioManager.Instance.PlaySE(AudioManager.SE_FAIL);
-
-        GameManager.Instance.OnPlayerDeath();
+        DetachCamera();
         // Camera will be reattached by GameManager after player resets
     }
 

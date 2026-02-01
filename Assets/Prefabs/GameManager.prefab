@@ -47,4 +47,5 @@ MonoBehaviour:
   player: {fileID: 0}
   cameraTransform: {fileID: 0}
   smokePuffSprite: {fileID: 738214717552788975, guid: 76336f986d6b54c74b015b0349277c97, type: 3}
-  respawnDelay: 0.2
+  respawnDelay: 1
+  currentLevel: 1

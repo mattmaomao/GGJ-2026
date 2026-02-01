@@ -26,6 +26,7 @@ public class MapLoader : MonoBehaviour
     [SerializeField] List<ColorSwapItem> buttonList;
     [SerializeField] GameObject tilePrefab;
     [SerializeField] Transform tileContainer;
+    [SerializeField] Transform deathZone;
     Vector2 startingPlayerCoor = Vector2.zero;
     const string FILEPATH = "Maps/level one for real";
     const int BLOCK_SIZE = 8;
@@ -86,12 +87,16 @@ public class MapLoader : MonoBehaviour
         LdtkLevel level = gridTilesByLevel[lvl];
         buttonList.Clear();
 
+        float lowestY = float.MaxValue;
         foreach (LdtkLayer layer in level.layerInstances)
         {
             foreach (LdtkGridTile tile in layer.gridTiles)
             {
                 // todo check src to determine tile/ object, then spawn object (button)
                 Vector2 position = new Vector2(tile.px[0] / BLOCK_SIZE - startCoor.x, -tile.px[1] / BLOCK_SIZE - startCoor.y);
+                if (position.y < lowestY)
+                    lowestY = position.y;
+
                 if (isPlatform(tile.src))
                 {
                     // spawn platform
@@ -111,6 +116,9 @@ public class MapLoader : MonoBehaviour
                 }
             }
         }
+        
+        // put death zone under lowest platform
+        deathZone.position = new Vector2(0, lowestY - 10f);
     }
 
     bool isPlatform(int[] code)

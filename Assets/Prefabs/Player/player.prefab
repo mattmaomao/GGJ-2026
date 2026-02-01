@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4350ef92c2b39004882b6c7dba79d984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  cameraDetach: {fileID: 4411782586873948519}
   movementSpeed: 300
   jumpForce: 10
   isGrounded: 0

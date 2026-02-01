@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] CameraDetach cameraDetach;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     PlayerInput playerInput;
@@ -47,6 +48,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Player has died!");
             AudioManager.Instance.PlaySE(AudioManager.SE_FAIL);
+            cameraDetach.OnPlayerDeath();
+            GameManager.Instance.OnPlayerDeath();
         }
     }
 }
