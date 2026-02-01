@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7046054350595287777}
   - component: {fileID: 8128168727487501775}
   m_Layer: 0
-  m_Name: OneTimeBtn
+  m_Name: SwitchYellowBtn
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,8 +83,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8985861341259255884, guid: 32c8d634824dc446ab64e38ef5fd0d9c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 783324700900717490, guid: 32c8d634824dc446ab64e38ef5fd0d9c, type: 3}
+  m_Color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -179,11 +179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05d93ebe066844f8fa53ba9e8818953c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColorSwapItem
-  pressedSprite: {fileID: -1283670978492430021, guid: 32c8d634824dc446ab64e38ef5fd0d9c, type: 3}
+  pressedSprite: {fileID: 4585713493483833581, guid: 32c8d634824dc446ab64e38ef5fd0d9c, type: 3}
   pressDelay: 0.3
-  destroyAfterCollection: 1
+  destroyAfterCollection: 0
   destroyDelay: 0.3
-  colorIndex: -1
+  colorIndex: 3
 --- !u!95 &8128168727487501775
 Animator:
   serializedVersion: 7

@@ -35,11 +35,18 @@ public class ScreenColorMask : MonoBehaviour
         screenMask.color = initialColor;
     }
     
-    public void OnSwitch()
+    public void OnSwitch(int colorIndex)
     {
-        // Move to next color first
-        currentColorIndex = (currentColorIndex + 1) % colors.Length;
-
+        if(colorIndex < 0 || colorIndex >= colors.Length)
+        {
+            // Move to next color first
+            currentColorIndex = (currentColorIndex + 1) % colors.Length;
+        }
+        else 
+        {
+            currentColorIndex = colorIndex;
+        }
+        
         // Then apply the new color
         Color selectedColor = colors[currentColorIndex];
         selectedColor.a = opacity;

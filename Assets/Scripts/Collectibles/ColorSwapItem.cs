@@ -21,6 +21,9 @@ public class ColorSwapItem : MonoBehaviour
     [Tooltip("Delay before destroying (time to show pressed sprite)")]
     public float destroyDelay = 0.3f;
 
+    [Header("Button Color Settings")]
+    [Tooltip("Color Index (use -1 to cycle through colors instead)")]
+    public int colorIndex = -1;
 
 
 
@@ -58,7 +61,7 @@ public class ColorSwapItem : MonoBehaviour
 
         if (colorMask != null)
         {
-            colorMask.OnSwitch();
+            colorMask.OnSwitch(colorIndex);
         }
 
         if (destroyAfterCollection)

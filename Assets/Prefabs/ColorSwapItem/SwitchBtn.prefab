@@ -183,7 +183,7 @@ MonoBehaviour:
   pressDelay: 0.3
   destroyAfterCollection: 0
   destroyDelay: 0.3
-  colorIndex: 0
+  colorIndex: -1
 --- !u!95 &8128168727487501775
 Animator:
   serializedVersion: 7
