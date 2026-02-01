@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7046054350595287777}
   - component: {fileID: 8128168727487501775}
   m_Layer: 0
-  m_Name: ColorSwapItem
+  m_Name: SwitchBtn
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,9 +180,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColorSwapItem
   pressedSprite: {fileID: 4585713493483833581, guid: 32c8d634824dc446ab64e38ef5fd0d9c, type: 3}
-  hideSpriteDelay: 0.1
-  destroyAfterCollection: 1
+  pressDelay: 0.3
+  destroyAfterCollection: 0
   destroyDelay: 0.3
+  colorIndex: 0
 --- !u!95 &8128168727487501775
 Animator:
   serializedVersion: 7

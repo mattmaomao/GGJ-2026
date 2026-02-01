@@ -12,8 +12,8 @@ public class ColorSwapItem : MonoBehaviour
 
     [Header("Behavior Settings")]
     
-    [Tooltip("Hide the item after anim")]
-    public float hideSpriteDelay = 0.3f;
+    [Tooltip("Show press animation for how long")]
+    public float pressDelay = 0.3f;
 
     [Tooltip("Destroy the item after collection")]
     public bool destroyAfterCollection = true;
@@ -37,32 +37,52 @@ public class ColorSwapItem : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player"))
         {
-            if (pressedSprite != null && spriteRenderer != null)
-            {
-                spriteRenderer.sprite = pressedSprite;
-                StartCoroutine(HideSpriteAfterDelay());
-            }
+            return;
+        }
 
-            if (colorMask != null)
-            {
-                colorMask.OnSwitch();
-            }
-
+        if (pressedSprite != null && spriteRenderer != null)
+        {
+            Sprite originalSprite = spriteRenderer.sprite;
+            spriteRenderer.sprite = pressedSprite;
             if (destroyAfterCollection)
             {
-                Destroy(gameObject, destroyDelay);
+                StartCoroutine(HideSpriteAfterDelay());
             }
+            else
+            {
+                StartCoroutine(UnpressSpriteAfterDelay(originalSprite));
+            }
+        }
+
+        if (colorMask != null)
+        {
+            colorMask.OnSwitch();
+        }
+
+        if (destroyAfterCollection)
+        {
+            Destroy(gameObject, destroyDelay);
         }
     }
 
+
     IEnumerator HideSpriteAfterDelay()
     {
-        yield return new WaitForSeconds(hideSpriteDelay);
+        yield return new WaitForSeconds(pressDelay);
         if (spriteRenderer != null)
         {
             spriteRenderer.enabled = false;
+        }
+    }
+    
+    IEnumerator UnpressSpriteAfterDelay(Sprite originalSprite)
+    {
+        yield return new WaitForSeconds(pressDelay);
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.sprite = originalSprite;
         }
     }
 }
