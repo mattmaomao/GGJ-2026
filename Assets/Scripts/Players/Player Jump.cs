@@ -9,6 +9,7 @@ public class PlayerJump : MonoBehaviour
         if (!collision.gameObject.CompareTag("Player"))
         {
             playerMovement.isGrounded = true;
+            AudioManager.Instance.PlaySE(AudioManager.SE_LANDING);
         }
     }
 }

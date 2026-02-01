@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerAnimationController : MonoBehaviour
 {
-    private Animator animator;
+    public Animator animator;
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
 
@@ -23,5 +23,6 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetBool("isJumping", !grounded);
         animator.SetBool("isWalking", grounded && isMoving);
         animator.SetBool("isIdle", grounded && !isMoving);
+        animator.SetBool("isFalling", !grounded && rb.linearVelocity.y < 0);
     }
 }
