@@ -62,7 +62,7 @@ public class MapLoader : MonoBehaviour
     {
         // start level with red background
         BackgroundSprite.Instance.OnSwitch(0);
-        
+
         // Clear existing tiles
         for (int i = tileContainer.childCount - 1; i >= 0; i--)
             Destroy(tileContainer.GetChild(i).gameObject);
@@ -139,7 +139,7 @@ public class MapLoader : MonoBehaviour
     bool isPlatform(int[] code)
     {
         if (code[1] == 11)
-            if (code[0] == 21 || code[0] == 31 || code[0] == 41)
+            if (code[0] == 21 || code[0] == 31 || code[0] == 41 || code[0] == 51)
                 return true;
         if (code[1] == 21)
             if (code[0] == 21 || code[0] == 31 || code[0] == 41 || code[0] == 51)
@@ -165,13 +165,13 @@ public class MapLoader : MonoBehaviour
         switch (code[0])
         {
             case 21:
-                return code[1] == 11 ? COLOR_BLACK : COLOR_YELLOW;
+                return code[1] == 11 ? COLOR_BLACK : COLOR_NULL;
             case 31:
-                return code[1] == 11 ? COLOR_RED : COLOR_CYAN;
+                return code[1] == 11 ? COLOR_RED : COLOR_YELLOW;
             case 41:
-                return code[1] == 11 ? COLOR_BLUE : COLOR_MAGENTA;
+                return code[1] == 11 ? COLOR_BLUE : COLOR_CYAN;
             case 51:
-                return code[1] == 21 ? COLOR_GREEN : COLOR_NULL;
+                return code[1] == 11 ? COLOR_GREEN : COLOR_MAGENTA;
         }
         return COLOR_NULL;
     }
@@ -182,13 +182,13 @@ public class MapLoader : MonoBehaviour
         switch (code[0])
         {
             case 21:
-                return code[1] == 11 ? PlatformColorType.Black : PlatformColorType.Yellow;
+                return code[1] == 11 ? PlatformColorType.Black : PlatformColorType.Null;
             case 31:
-                return code[1] == 11 ? PlatformColorType.Red : PlatformColorType.Cyan;
+                return code[1] == 11 ? PlatformColorType.Red : PlatformColorType.Yellow;
             case 41:
-                return code[1] == 11 ? PlatformColorType.Blue : PlatformColorType.Magenta;
+                return code[1] == 11 ? PlatformColorType.Blue : PlatformColorType.Cyan;
             case 51:
-                return code[1] == 21 ? PlatformColorType.Green : PlatformColorType.Null;
+                return code[1] == 21 ? PlatformColorType.Green : PlatformColorType.Magenta;
         }
         return PlatformColorType.Null;
     }
