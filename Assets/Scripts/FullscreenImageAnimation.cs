@@ -28,9 +28,6 @@ public class FullscreenImageAnimation : MonoBehaviour
             image.sprite = frame;
             yield return new WaitForSeconds(frameDuration);
         }
-
-        if (audio != null)
-            audio.Stop();
         if (startButton != null)
             startButton.SetActive(true);
     }
