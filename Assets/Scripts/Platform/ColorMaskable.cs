@@ -2,12 +2,14 @@ using UnityEngine;
 
 public enum PlatformColorType
 {
+    Black,
     Red,
     Blue,
     Green,
     Yellow,
     Cyan,
-    Magenta
+    Magenta,
+    Null
 }
 
 public class ColorMaskable : MonoBehaviour
@@ -15,23 +17,22 @@ public class ColorMaskable : MonoBehaviour
     [Header("Color Mask Settings")]
     public PlatformColorType colorType = PlatformColorType.Red;
 
-    private Renderer[] renderers;
-    private Collider2D[] colliders;
+    Renderer renderer;
+    Collider2D collider;
 
     void Awake()
     {
-        renderers = GetComponents<Renderer>();
-        colliders = GetComponents<Collider2D>();
+        renderer = GetComponent<Renderer>();
+        collider = GetComponent<Collider2D>();
     }
 
     public void UpdateVisibility(PlatformColorType maskColorType)
     {
         bool shouldBeActive = colorType != maskColorType;
 
-        foreach (var r in renderers)
-            r.enabled = shouldBeActive;
-
-        foreach (var c in colliders)
-            c.enabled = shouldBeActive;
+        if (renderer != null)
+            renderer.enabled = shouldBeActive;
+        if (collider != null)
+            collider.enabled = shouldBeActive;
     }
 }

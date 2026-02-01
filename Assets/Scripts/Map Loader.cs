@@ -1,27 +1,38 @@
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class MapLoader : MonoBehaviour
 {
+    [SerializeField] GameObject playerObj;
+
+    [Header("Colors")]
+    [SerializeField] Color COLOR_BLACK = Color.black;
+    [SerializeField] Color COLOR_RED = Color.red;
+    [SerializeField] Color COLOR_BLUE = Color.blue;
+    [SerializeField] Color COLOR_GREEN = Color.green;
+    [SerializeField] Color COLOR_YELLOW = Color.yellow;
+    [SerializeField] Color COLOR_CYAN = Color.cyan;
+    [SerializeField] Color COLOR_MAGENTA = Color.magenta;
+    // for empty space place holder
+    [SerializeField] Color COLOR_NULL = Color.white;
+
+    [Header("Settings")]
+    [SerializeField] BackgroundSprite backgroundSprite;
     [SerializeField] GameObject tilePrefab;
     [SerializeField] Transform tileContainer;
-    const int BLOCK_SIZE = 64;
+    const string FILEPATH = "Maps/level one for real";
+    const int BLOCK_SIZE = 8;
     List<LdtkLevel> gridTilesByLevel = new();
 
     void Start()
     {
         gridTilesByLevel.Clear();
-        gridTilesByLevel = ExtractGridTiles("Maps/Level one");
+        gridTilesByLevel = ExtractGridTiles(FILEPATH);
 
-        foreach (LdtkLevel level in gridTilesByLevel)
-        {
-            Debug.Log($"Level: {level.identifier}, layer count: {level.layerInstances.Length}");
-            foreach (LdtkLayer layer in level.layerInstances)
-            {
-                Debug.Log($"  Layer: {layer.__identifier}, tile count: {layer.gridTiles.Length}, entity count: {layer.entityInstances.Length}");
-            }
-        }
+        // todo call init level with game manager
+        InitLevel(1);
     }
 
     public List<LdtkLevel> ExtractGridTiles(string jsonPath)
@@ -42,8 +53,10 @@ public class MapLoader : MonoBehaviour
         // spawn tiles
         SpawnTiles(lvl);
 
+        // put player at start position
         PutPlayerOnStartPt(lvl);
 
+        backgroundSprite.ReLoadMaskableObj();
         tileContainer.gameObject.SetActive(true);
     }
 
@@ -62,16 +75,51 @@ public class MapLoader : MonoBehaviour
         {
             foreach (LdtkGridTile tile in layer.gridTiles)
             {
-                Vector3 position = new Vector3(tile.px[0] / BLOCK_SIZE, tile.px[1] / BLOCK_SIZE, 0);
-                GameObject tileGO = Instantiate(tilePrefab, position, Quaternion.identity, tileContainer);
-                // Additional setup for tileGO can be done here
+                // todo check src to determine tile/ object, then spawn object (button)
 
-                // set block color base on tile.src
-                int colorCode1 = tile.src[0];
-                int colorCode2 = tile.src[1];
-                // todo
+                // spawn platform
+                Vector2 position = new Vector2(tile.px[0] / BLOCK_SIZE, -tile.px[1] / BLOCK_SIZE);
+                GameObject tileGO = Instantiate(tilePrefab, position, Quaternion.identity, tileContainer);
+
+                // Additional setup for tileGO can be done here
+                PlatformController platCon = tileGO.GetComponent<PlatformController>();
+                platCon.Init(position, GetColorWithCode(tile.src), GetColorTypeWithCode(tile.src));
             }
         }
+    }
+
+    // hard code color code ***might need to be changed
+    Color GetColorWithCode(int[] code)
+    {
+        switch (code[0])
+        {
+            case 21:
+                return code[1] == 11 ? COLOR_BLACK : COLOR_YELLOW;
+            case 31:
+                return code[1] == 11 ? COLOR_RED : COLOR_CYAN;
+            case 41:
+                return code[1] == 11 ? COLOR_BLUE : COLOR_MAGENTA;
+            case 51:
+                return code[1] == 21 ? COLOR_GREEN : COLOR_NULL;
+        }
+        return COLOR_NULL;
+    }
+
+    // hard code color code ***might need to be changed
+    PlatformColorType GetColorTypeWithCode(int[] code)
+    {
+        switch (code[0])
+        {
+            case 21:
+                return code[1] == 11 ? PlatformColorType.Black : PlatformColorType.Yellow;
+            case 31:
+                return code[1] == 11 ? PlatformColorType.Red : PlatformColorType.Cyan;
+            case 41:
+                return code[1] == 11 ? PlatformColorType.Blue : PlatformColorType.Magenta;
+            case 51:
+                return code[1] == 21 ? PlatformColorType.Green : PlatformColorType.Null;
+        }
+        return PlatformColorType.Null;
     }
 
     public void PutPlayerOnStartPt(int lvl)
@@ -81,15 +129,15 @@ public class MapLoader : MonoBehaviour
         {
             if (layer.__identifier == "Entities")
             {
-                var playerEntity = layer.entityInstances.FirstOrDefault(e => e.px != null);
-                if (playerEntity != null)
+                Debug.Log(layer.entityInstances);
+                if (layer.entityInstances != null && layer.entityInstances.Length > 0)
                 {
-                    Vector3 playerPos = new Vector3(playerEntity.px[0] / BLOCK_SIZE, playerEntity.px[1] / BLOCK_SIZE, 0);
+                    var entity = layer.entityInstances[0];
+                    Vector2 playerPos = new Vector2(entity.px[0] / BLOCK_SIZE, -entity.px[1] / BLOCK_SIZE);
                     // todo access player object and set position
-                    GameObject player = GameObject.FindWithTag("Player");
-                    if (player != null)
+                    if (playerObj != null)
                     {
-                        player.transform.position = playerPos;
+                        playerObj.transform.position = playerPos;
                         return;
                     }
                 }

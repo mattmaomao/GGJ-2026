@@ -39,6 +39,11 @@ public class BackgroundSprite : MonoBehaviour
         UpdateAllMaskables();
     }
 
+    public void ReLoadMaskableObj()
+    {
+        allMaskables = FindObjectsByType<ColorMaskable>(FindObjectsSortMode.None);
+    }
+
     public void OnSwitch(int colorIndex)
     {
         if (colorIndex < 0 || colorIndex >= colors.Length)
